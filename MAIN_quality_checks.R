@@ -117,8 +117,6 @@ kela_purchase[duplicated(kela_purchase),]
 unique( kela_purchase[duplicated(kela_purchase),]$PLKM )
 # can be a problem of registration: multiple package purchase not in PLKM but in multiple rows 
 
-#GET EXAMPLE:
-kela_purchase[kela_purchase$HETU=='FR3117691',]
 
 #...............................
 
@@ -135,10 +133,6 @@ kanta_prescription[duplicated(kanta_prescription),]
 kanta_delivery <- readRDS('/data/projects/project_mferro/kela_kanta_reliability/data/joined_statins_deliveries.rds')
 kanta_delivery[duplicated(kanta_delivery),]
 # 13013 duplicates found!
-
-#GET EXAMPLE:
-kanta_delivery[kanta_delivery$PATIENT_ID=='FR2249887',]
-#seems like the same problem of kela ...
 
 
 rm(list=ls())
