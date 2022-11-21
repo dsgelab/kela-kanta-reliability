@@ -27,6 +27,6 @@ every plot created for the analysis is in the */plot* folder (not available on G
 - Quality assessment analysis is performed with the *MAIN_quality_check.R* file
 - Analysis over the joined data is instead performed with the *MAIN_analysis.R*
 - Analysis over the single filtered datasets (not joined) is performed in order to create: 
-1. distribution plot of the lag in days between purchases/prescriptions/deliveris, this is created with *temp_plot_distribution.R*+*PLOT_distributions.R*
+1. distribution plot of the lag in days between purchases/prescriptions/deliveris, this is created with *preprocess_plot_distribution.R*+*PLOT_distributions.R*
 2. trajectory plots of a group of patients in each dataset to asses the quality of information. for this plot use the file *PLOT_trajectories.R*
 
