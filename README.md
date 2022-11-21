@@ -14,10 +14,6 @@ Moreover, years have been restricted from 2014 to 2020 for quality and necessity
 
 ## SCRIPTS
 
-every official code used for the analysis is inside the */script* folder.
-every dataset used or created is in the */data* folder (not available on GitHub)
-every plot created for the analysis is in the */plot* folder (not available on GitHub)
-
 **PRE-PROCESSING**
 - *filter_kela_purchase.R*, *filter_kanta_prescription.R* and *filter_kanta_delivery.R* are used to filter for statins the original yearly datasets 
 - *data_joiner.R* is responsible for joining single datasets from year 2014 to 2020, as output it produce the 3 completely filtered datasets: *joined_statins_purchases.rds*,   *joined_statins_prescriptions.rds* and *joined_statins_deliveries.rds*
